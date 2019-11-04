@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Repaso JavaScript - jQuery (2)</title>
+	<meta charset="utf-8" /> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/miscript.js"></script>
+</head>
+<body>
+<header>
+	<h1>Repaso javaScript</h1>
+</header>
+<form name="examen" action="" method="post">
+<fieldset id="eje01">
+	<legend>Ejercicio 1:<br /> 
+	a) Cambiar la imagen bombilla_on.gif por bombilla_off.gif cuando se presione el botón. <br /> 
+	b) Cambiar el texto del botón de ON a OFF dependiendo del caso. <br /> 
+	c) Cambiar el texto que aparece por encima para que ponga: bombilla encendida o bombilla apagada dependiendo de cómo esté</legend>
+	<img src="img/bombilla_off.gif" title="bombilla apagada">
+	<button type="button">ON</button>
+</fieldset>
+<fieldset id="eje02">
+	<legend>Ejercicio 2: Aplicar el efecto jquery que pone en cada botón cuando hace clic. Todos los efectos han de durar más de 1 segundo</legend>
+	
+	<button type="button" id="btnocultar">ocultar</button>
+	<button type="button" id="btnmostrar">mostrar</button>
+	<button type="button" id="btnocmo">ocultar si esá visible y mostrar si está oculto</button>
+	<br /><br />
+	<button type="button" id="btnaparecer">Aparecer</button>
+	<button type="button" id="btndesaparecer">Desaparecer</button>
+	<button type="button" id="btnapadesap">Que aparezca si no se muestra y desaparezca si está visible</button>
+	<button type="button" id="btncinquanta">Desaparecer sólo hasta el 50% de transparencia</button>
+	<br /><br />
+	<button type="button" id="btndarriba">Desplegar desde arriba</button>
+	<button type="button" id="btnharriba">Desplegar hacia arriba</button>
+	<button type="button" id="btnpledesple">Desplegar si está plegado y plegar si está desplegado</button>
+	<br /><br />
+	<button type="button" id="btnanimpers">Animación personalizada (ej: que salga desde la izquierda)</button>
+	<div class="rectangulo"></div>
+</fieldset>
+<fieldset id="eje03">
+	<legend>Ejercicio 3: Recorrido jerárquico</legend>
+	
+	<div id="parientes">
+		<article>
+			<h3>Nombre del artículo 1</h3>
+			<div>
+				<i class="fas fa-images"></i>
+				<p>Descripción del artículo 1</p>
+			</div>
+		</article>
+		<article>
+			<h3>Nombre del artículo 2</h3>
+			<div>
+				<i class="far fa-images"></i>
+				<p>Descripción del artículo 2</p>
+			</div>
+		</article>
+		<article>
+			<h3>Nombre del artículo 3</h3>
+			<div>
+				<i class="fas fa-image"></i>
+				<p>Descripción del artículo 3</p>
+			</div>
+		</article>
+	</div>
+	<h3>
+		Poner un borde rojo alrededor del elemento del que partimos y uno verde alrededor del pariente que indica el botón:	
+	</h3>
+	<h4>Desde el elemento p que contiene "descripción del artículo 2"</h4>
+	<button type="button">Marcar el padre</button>
+	<button type="button">Marcar la caja del artículo al que pertenece</button>
+	<button type="button">Marcar el p que contiene "descripción del artículo 3"</button>
+	<button type="button">Marcar el p que contiene "descripción del artículo 1"</button>
+	<h4>Desde el icono <i class="fas fa-image"></i></h4>
+	<button type="button">Marcar todos los antecesores (los padres, abuelos,...) </button>
+	<button type="button">Marcar todos los hermanos de su artículo </button>
+	<button type="button">Marcar todos sus hermanos</button>
+	<h4>Desde la caja del artículo 1</h4>
+	<button type="button">Marcar todos sus hijos </button>
+	<button type="button">Marcar todos los hijos de su hermano menor siguiente </button>
+	<button type="button">Marcar a su hermano más pequeño</button>
+	
+</fieldset>
+
+
+
+
+
+</form>
+	
+</body>
+</html>

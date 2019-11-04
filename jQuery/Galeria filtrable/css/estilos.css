@@ -1,0 +1,134 @@
+body{
+padding:15px;
+}
+h1{
+	background-color:#2196F3;
+	color: white;
+	padding:20px;
+}
+h2 {
+	background-color:#2196F3;
+	color: white;
+	padding:15px;
+	font-size:1.1em;
+	text-align: center;
+}
+#resultados {
+	display:none;
+	background-color:#e9e9e9;
+	padding:10px;
+	margin:10px 0px;
+}
+
+
+fieldset {
+	display:inline-block;
+	border: 1px solid #e9e9e9;
+	background-color:#e9e9e9;
+	padding:25px;
+}
+legend {
+	background-color:white;
+	padding:10px 20px;
+	border-radius: 20px;
+	
+}
+button {
+	border:none;
+	background-color:#2196F3;
+	color:white;
+	padding:25px;
+	margin:5px;
+	cursor:pointer;
+	font-size:1.1em;
+	transition:all 0.5s;
+}
+
+button i{
+	font-size:1.5em;
+	transition:all 0.5s;
+}
+button:hover {
+	transform:scale(1.1,1.1);
+}
+button:hover i{
+transform:rotate(-30deg);
+}
+
+article {
+	display:inline-block;
+	width:20%;
+	margin:20px;
+	border: 1px solid #e9e9e9;
+	transition: all 0.5s;
+}
+
+article:hover{
+ transform: scale(1.1,1.1);
+ cursor:pointer;
+}
+
+article:hover img{
+	filter: grayscale(100%);
+}
+
+article img {
+	width:90%;
+	height:auto;
+	transition: all 0.5s;
+}
+
+.textodesc {
+	display:none;
+}
+
+
+.grid {width:20%;}
+.columna {width:40%;}
+.lista {
+	width:90%;
+	min-height: 100px;
+	transition: all 0s;
+	
+}
+
+.lista .imagen {
+	display:inline-block;
+	padding:5px 20px;
+}
+
+.lista .descripcion {
+	display:inline-block;
+		border-left:20px solid #2196F3;
+}
+	
+.lista img {
+	width:auto;
+	height: 100px;	
+}	
+	
+.lista h2 {
+	background-color:white;
+	color: #2196F3;
+	margin: 0;
+	padding: 10px 5px 5px 50px;
+	text-align:left;
+}
+.lista .textodesc {
+	display: block;
+	padding: 2px 5px 2px 50px;
+	word-wrap: break-word;
+
+}
+.oculto{
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+}
+span.txtfiltro {
+	font-size: 1.2em;
+	color: red;
+	font-weight: bold;
+	text-transform:uppercase;
+}

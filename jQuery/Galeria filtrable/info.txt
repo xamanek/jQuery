@@ -1,0 +1,77 @@
+Galería con filtros y diferentes visualizaciones.
+
+Características:
+- Secciones:
+	Filtros: Todos, Figuras, Peluches, Tazas, Papelería, Ropa, Mochilas
+	Visualizaciones: grid, columnas, lista
+	Resultado: Texto con el filtro aplicado y la cantidad de artículos encontrados
+	Galería: Se mostrarán los artículos dependiendo del filtro y la visualización seleccionada.
+	
+- Artículos: 
+	Al pasar por encima se hace un poco más grande y la imagen se pone en blanco y negro.
+	Aparece siempre el título del artículo. Si la visualización es tipo lista también aparecerá las descripciones
+
+Particularidades:
+La Mochila Peluche Mascotas Pets Duke pertenece a 2 categorías, por lo que ha de aparecer en las dos (Mochila y peluches)
+
+___________________________________________
+
+Info Artículos
+
+blister-3-boligrafos-milan-transparente-surtidos.jpg
+	
+Blister 3 Boligrafos Milan Transparente Surtidos
+	Blister 3 boligrafos Milan transparente surtidos
+	Boligrafo retractil. Punta 1mm.
+	Milan transparent pen pack of 3 assorted
+	
+____	
+
+figura-pop-disney-hercules-pegasus-hercules-15cm.jpg
+
+Figura POP Disney Hercules Pegasus & Hercules 15cm
+	Figura POP Disney Hercules Pegasus & Hercules 15cm
+	Figura vinilo Funko POP de 15cm en caja regalo.
+	POP figure Disney Hercules Pegasus & Hercules 15cm
+____
+
+guantes-harry-potter-hufflepuff.jpg
+
+Guantes Harry Potter Hufflepuff
+	Guantes Harry Potter Hufflepuff
+	Presentación: bolsa. Talla única.
+	Harry Potter Hufflepuff magic touch gloves
+
+____
+
+mochila-peluche-mascotas-pets-duke.jpg
+
+Mochila Peluche Mascotas Pets Duke
+	Mochila peluche Mascotas Pets Duke
+	Tamaño: 40cm. Mochilas peluche con la forma de los personajes de la película Pets.
+	Backpack plush soft Pets Game On! Duke
+____
+
+mochila-star-wars-3d-personajes-31cm.jpg
+
+Mochila Star Wars 3D Personajes 31cm
+	Mochila Star Wars 3D personajes 31cm
+	Mochila con personajes de Star Wars en 3D. Star Wars 3D rucksack.
+	Mochila Star Wars 3D personajes 31cm
+____
+
+peluche-pantera-rosa-soft-30cm.jpg
+
+Peluche Pantera Rosa soft 30cm
+	Peluche Pantera Rosa Soft 30cm
+	Tamaño: 30cm.
+	Pink Panther soft plush toy 30cm	
+
+____
+	
+taza-mejor-maestra.jpg
+	
+Taza Mejor Maestra
+	Taza Mejor Maestra
+	Taza blanca de ceramica con recubrimiento de alta calidad brillo, resistente al lavavajillas y al microondas. Capacidad 325ml.
+	Mejor Maestra mug
